@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-contract moli {
+contract JBO {
     string public name;
     address private owner;
     uint256 public million;
@@ -13,8 +13,8 @@ contract moli {
     event Approval(address indexed owner, address indexed spender, uint256 value);
     event Mint(address indexed to, uint256 value);
     constructor(uint256 _initialSupply) {
-        name = "moli";
-        symbol = "moli";
+        name = "JBO";
+        symbol = "JBO";
         decimals = 8;
         owner = msg.sender;
         million = 1000000 * 10 ** decimals;
